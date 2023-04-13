@@ -84,10 +84,7 @@ const MyApp = ({ Component, pageProps, ...props }: Props) => {
         href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.2'
         media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/"/>
-    <Script src='https://wpriverthemes.com/drake/wp-includes/js/jquery/jquery.min.js?ver=3.6.3'
-        id='jquery-core-js'></Script>
-    <Script src='https://wpriverthemes.com/drake/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0'
-        id='jquery-migrate-js'></Script>
+    
     <link rel="https://api.w.org/" href="https://wpriverthemes.com/drake/wp-json/" />
     <link rel="alternate" type="application/json" href="https://wpriverthemes.com/drake/wp-json/wp/v2/pages/8" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wpriverthemes.com/drake/xmlrpc.php?rsd" />
@@ -108,6 +105,11 @@ const MyApp = ({ Component, pageProps, ...props }: Props) => {
         href="https://wpriverthemes.com/drake/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Drake &raquo; Comments Feed"
         href="https://wpriverthemes.com/drake/comments/feed/" />
+            <link rel='stylesheet' id='wp-block-library-css'
+        href='https://wpriverthemes.com/drake/wp-includes/css/dist/block-library/style.min.css?ver=6.2' media='all' />
+    <link rel='stylesheet' id='classic-theme-styles-css'
+        href='https://wpriverthemes.com/drake/wp-includes/css/classic-themes.min.css?ver=6.2' media='all' />
+    </Head>
    
     {/* <style>
         img.wp-smiley,
@@ -123,12 +125,8 @@ const MyApp = ({ Component, pageProps, ...props }: Props) => {
             padding: 0 !important;
         }
     </style> */}
-    <link rel='stylesheet' id='wp-block-library-css'
-        href='https://wpriverthemes.com/drake/wp-includes/css/dist/block-library/style.min.css?ver=6.2' media='all' />
-    <link rel='stylesheet' id='classic-theme-styles-css'
-        href='https://wpriverthemes.com/drake/wp-includes/css/classic-themes.min.css?ver=6.2' media='all' />
 
-    </Head>
+
     <Script src="https://apis.google.com/js/platform.js?onload=init" async defer></Script>
     <Script id="my-script" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
     <Script id="my-script" strategy="lazyOnload">
@@ -144,7 +142,10 @@ const MyApp = ({ Component, pageProps, ...props }: Props) => {
     <Script async defer src="https://connect.facebook.net/en_US/sdk.js"></Script>
 
 
-
+    <Script src='https://wpriverthemes.com/drake/wp-includes/js/jquery/jquery.min.js?ver=3.6.3'
+        id='jquery-core-js'></Script>
+    <Script src='https://wpriverthemes.com/drake/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0'
+        id='jquery-migrate-js'></Script>
 
 
 

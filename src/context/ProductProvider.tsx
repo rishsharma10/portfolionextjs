@@ -1,10 +1,8 @@
 import React, { createContext, ReactNode, SetStateAction, useState } from 'react'
 import henceforthApi from 'src/utils/henceforthApi';
-import { ApisListResponse } from 'src/interfaces';
 
 
 interface CommonContextType {
-    nested: ApisListResponse;
     nestedLoading: boolean
 
 }
@@ -15,7 +13,6 @@ type GlobleContextProviderProps = {
 }
 
 function ProductProvider(props: GlobleContextProviderProps) {
-    const [nested, setNested] = useState({} as ApisListResponse)
     const [nestedLoading, setNestedLoading] = React.useState(false)
 
 
@@ -24,7 +21,6 @@ function ProductProvider(props: GlobleContextProviderProps) {
         setNestedLoading(true)
         try {
             const apiRes = await henceforthApi.Common.nested()
-            setNested(apiRes)
         } catch (error) {
 
         } finally {
@@ -36,7 +32,7 @@ function ProductProvider(props: GlobleContextProviderProps) {
 
     return (
         <ProductContext.Provider
-            value={{ nested, nestedLoading, ...props }}>
+            value={{ nestedLoading, ...props }}>
             {props.children}
         </ProductContext.Provider>
     )

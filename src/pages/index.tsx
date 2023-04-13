@@ -979,7 +979,7 @@ export default function Home() {
                                                                             <h1>$99 <span>/ hours</span></h1>
                                                                         </div>
                                                                         <ul className="feature-lists">
-                                                                            <li>Don't need wireframe or anything</li>
+                                                                            <li>Don&apost need wireframe or anything</li>
 
                                                                             <li>Design with Figma, Framer from scratch
                                                                             </li>
@@ -1001,7 +1001,7 @@ export default function Home() {
                                                             </div>
                                                             <p className="info scroll-animation"
                                                                 data-animation="fade_from_bottom">
-                                                                Don't find any package match with your plan!<br/> Want to
+                                                                Don&apost find any package match with your plan!<br/> Want to
                                                                 setup a new tailor-made package for only you?. <a
                                                                     href="#contact">Contact Us</a>
                                                             </p>
@@ -1038,7 +1038,7 @@ export default function Home() {
                                                                 <i className="las la-dollar-sign"></i> contact
                                                             </h4>
                                                             <h1 className="scroll-animation"
-                                                                data-animation="fade_from_bottom">Let's Work
+                                                                data-animation="fade_from_bottom">Let&aposs Work
                                                                 <span>Together!</span>
                                                             </h1>
                                                         </div>

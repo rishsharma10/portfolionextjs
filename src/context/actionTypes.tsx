@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import { ProductDetails } from "src/interfaces/Products";
 
 export const COOKIES_USER_ACCESS_TOKEN = "COOKIES_USER_ACCESS_TOKEN";
 export const COOKIES_USER_RESET_EMAIL = "USER_RESET_EMAIL";
@@ -96,5 +95,4 @@ export const TAB_HELP = "TAB_HELP";
 export type GlobleContextProviderProps = {
     children: ReactNode;
     tab?: string;
-    data?: ProductDetails
 }
