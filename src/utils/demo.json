@@ -1,0 +1,115 @@
+{
+
+    "user_details":{
+        "name":"Rishabh sharma",
+        "email":"rishabhsharmars147@gmail.com",
+        "image":"img",
+        "phone_no":"8770283188",
+        "address":"Balongi 160055",
+        "role":"Reactjs developer",
+        "exp":"5yr",
+        "projects":"20"
+    },
+    "about":{
+        "title":"Every great design begin with an even better story",
+        "description":"Since beginning my journey as a freelance designer nearly 5 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time."
+    },
+    "edu_exp":[
+        {
+            "start_date": 1742370215,
+            "end_date":1742370215,
+            "role":"Reactjs developer",
+            "company":"HF solutions"
+        },
+        {
+            "start_date": 1742370215,
+            "end_date":1742370215,
+            "role":"Reactjs developer",
+            "company":"HF solutions 1"
+        },
+        {
+            "start_date": 1742370215,
+            "end_date":1742370215,
+            "role":"Reactjs developer",
+            "company":"HF solutions 2"
+        }
+    ],
+    "services":[
+        {
+            "title":"web design",
+            "desc":"web design desc",
+            "project_count":20,
+            "icon":"xyz"
+        },
+        {
+            "title":"web design 1",
+            "desc":"web design desc",
+            "project_count":20,
+            "icon":"xyz"
+        },
+        {
+            "title":"web design 2",
+            "desc":"web design desc",
+            "project_count":20,
+            "icon":"xyz"
+        }
+    ],
+    "portfolio":[
+        {
+            "name":"abundish",
+            "class":"col-md-12",
+            "image":[
+                "xyz","aabc","hjj"
+            ],
+            "tech_used":["nextjs","reactjs","html"]
+        },
+        {
+            "name":"abundish",
+            "class":"col-md-12",
+            "image":[
+                "xyz","aabc","hjj"
+            ],
+            "tech_used":["nextjs","reactjs","html"]
+        },
+        {
+            "name":"abundish",
+            "class":"col-md-12",
+            "image":[
+                "xyz","aabc","hjj"
+            ],
+            "tech_used":["nextjs","reactjs","html"]
+        }
+    ],
+    "skills":[
+        {
+            "name":"figma",
+            "percent":80,
+            "icon":"xyz"
+        },
+        {
+            "name":"figma",
+            "percent":80,
+            "icon":"xyz"
+        },
+        {
+            "name":"figma",
+            "percent":80,
+            "icon":"xyz"
+        },
+        {
+            "name":"figma",
+            "percent":80,
+            "icon":"xyz"
+        },
+        {
+            "name":"figma",
+            "percent":80,
+            "icon":"xyz"
+        },
+        {
+            "name":"figma",
+            "percent":80,
+            "icon":"xyz"
+        }
+    ]
+}
