@@ -1,4 +1,5 @@
 import 'src/styles/globals.css'
+import "src/styles/main.scss";
 import type { AppProps } from 'next/app'
 import { NextPage } from 'next';
 import { ReactNode } from 'react';

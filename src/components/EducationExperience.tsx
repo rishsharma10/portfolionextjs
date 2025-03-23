@@ -6,8 +6,8 @@ const EducationExperience = (props:DataStructure["edu_exp"]) => {
         <div className="item scroll-animation"
             data-animation="fade_from_right">
             <span className="date">{props.start_date} - {props.end_date}</span>
-            <h2>{props.role}</h2>
-            <p>{props?.company}</p>
+            <h2 className='text-uppercase'>{props.role}</h2>
+            <p className='fw-bold text-uppercase'>{props?.company}</p>
         </div>
     )
 }

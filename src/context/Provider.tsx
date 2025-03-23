@@ -39,12 +39,19 @@ type GlobleContextProviderProps = {
     children: ReactNode;
     user_info: UserInfo,
 }
+export const PHONE_NUMBER_LINK = `918770283188`
+export const INSTAGRAM_LINK = 'https://www.instagram.com/rishabh_bhardwaj__/'
+export const GITHUB_LINK = 'https://github.com/rishsharma10'
+export const FACEBOOK_LINK = 'https://www.facebook.com'
+export const WHATSPP_LINK = `https://api.whatsapp.com/send/?phone=${PHONE_NUMBER_LINK}&text=Hi, Send your query after this message? Thanks!&type=phone_number&app_absent=0`
+
 
 function GlobalProvider(props: GlobleContextProviderProps) {
     const router = useRouter()
     const [loading, setLoading] = useState(false)
     const [userInfo, setUserInfo] = useState(props.user_info)
     henceforthApi.setToken(userInfo?.access_token ? userInfo?.access_token : "")
+    
 
 
     return (

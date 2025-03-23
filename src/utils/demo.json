@@ -1,3 +1,4 @@
+
 {
 
     "user_details":{
@@ -5,63 +6,63 @@
         "email":"rishabhsharmars147@gmail.com",
         "image":"img",
         "phone_no":"8770283188",
-        "address":"Balongi 160055",
-        "role":"Reactjs developer",
+        "address":"Sector 119, Balongi, Sahibzada Ajit Singh Nagar, Punjab 160055",
+        "role":"Full Stack developer",
         "exp":"5yr",
         "projects":"20"
     },
     "about":{
-        "title":"Every great design begin with an even better story",
-        "description":"Since beginning my journey as a freelance designer nearly 5 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time."
+        "title":"Experienced Full-Stack Developer 5+ Years in Web & App Development",
+        "description":"Skilled Full-Stack Developer with 5 years of experience in building dynamic and scalable web applications. Proficient in React.js, Next.js, Node.js, Express.js, and modern databases, I specialize in creating seamless user experiences and efficient backend solutions. Passionate about clean code, performance optimization, and staying updated with the latest technologies to deliver high-quality software solutions."
     },
     "edu_exp":[
         {
-            "start_date": 1742370215,
-            "end_date":1742370215,
-            "role":"Reactjs developer",
-            "company":"HF solutions"
+            "start_date": "1 Jan 2025",
+            "end_date":"Present",
+            "role":"Full Stack developer",
+            "company":"FreeLancing"
         },
         {
-            "start_date": 1742370215,
-            "end_date":1742370215,
-            "role":"Reactjs developer",
-            "company":"HF solutions 1"
+            "start_date": "21 March 2022",
+            "end_date":"1 Jan 2025",
+            "role":"Reactjs developer | Mern Stack",
+            "company":"HF solutions Pvt Ltd"
         },
         {
-            "start_date": 1742370215,
-            "end_date":1742370215,
-            "role":"Reactjs developer",
-            "company":"HF solutions 2"
+            "start_date": "20 March 2021",
+            "end_date":"1 March 2022",
+            "role":"Reactjs developer Internship",
+            "company":"PN INFOSYS"
         }
     ],
     "services":[
         {
-            "title":"web design",
-            "desc":"web design desc",
-            "project_count":20,
+            "title":"Frontend Development Specialist",
+            "desc":"Expertise in building intuitive and responsive user interfaces using React.js, Next.js, TypeScript, and Redux. Skilled in modern UI/UX principles, performance optimization, and integrating APIs for seamless user experiences.",
+            "project_count":10,
             "icon":"xyz"
         },
         {
-            "title":"web design 1",
-            "desc":"web design desc",
-            "project_count":20,
+            "title":"Backend & API Development Expert",
+            "desc":"Proficient in Node.js, Express.js, and database management (MongoDB, PostgreSQL) to develop scalable and secure server-side applications. Experienced in RESTful and GraphQL APIs, authentication, and cloud integrations.",
+            "project_count":10,
             "icon":"xyz"
         },
         {
-            "title":"web design 2",
-            "desc":"web design desc",
-            "project_count":20,
+            "title":"Full-Stack Application Architect",
+            "desc":"Strong ability to design and develop end-to-end solutions by combining frontend and backend expertise. Skilled in DevOps, CI/CD pipelines, microservices architecture, and cloud deployment, ensuring high-performance and scalable applications.",
+            "project_count":10,
             "icon":"xyz"
         }
     ],
     "portfolio":[
         {
-            "name":"abundish",
+            "name":"Ecommerce",
             "class":"col-md-12",
             "image":[
                 "xyz","aabc","hjj"
             ],
-            "tech_used":["nextjs","reactjs","html"]
+            "tech_used":["Next.js","Bootstrap","Nodejs","MongoDB"]
         },
         {
             "name":"abundish",
@@ -82,32 +83,62 @@
     ],
     "skills":[
         {
-            "name":"figma",
+            "name":"React.js",
             "percent":80,
             "icon":"xyz"
         },
         {
-            "name":"figma",
+            "name":"Next.js",
             "percent":80,
             "icon":"xyz"
         },
         {
-            "name":"figma",
+            "name":"Typescript",
             "percent":80,
             "icon":"xyz"
         },
         {
-            "name":"figma",
+            "name":"Javascript",
             "percent":80,
             "icon":"xyz"
         },
         {
-            "name":"figma",
+            "name":"Node js",
             "percent":80,
             "icon":"xyz"
         },
         {
-            "name":"figma",
+            "name":"Express.js",
+            "percent":80,
+            "icon":"xyz"
+        },
+        {
+            "name":"Mongo DB",
+            "percent":80,
+            "icon":"xyz"
+        },
+        {
+            "name":"Html",
+            "percent":80,
+            "icon":"xyz"
+        },
+        {
+            "name":"Css",
+            "percent":80,
+            "icon":"xyz"
+        },
+        {
+            "name":"Ant Design",
+            "percent":80,
+            "icon":"xyz"
+        },
+        {
+            "name":"Talwind Css",
+            "percent":80,
+            "icon":"xyz"
+        },
+        {
+            "name":"Web 3",
             "percent":80,
             "icon":"xyz"
         }

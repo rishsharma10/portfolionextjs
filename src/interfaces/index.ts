@@ -19,8 +19,8 @@ interface About {
 }
 
 interface EduExp {
-    start_date: number;
-    end_date: number;
+    start_date: string | number;
+    end_date: string | number;
     role: string;
     company: string;
 }
