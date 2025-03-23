@@ -194,11 +194,11 @@ export default function Home() {
                                         <i className="lar la-user"></i> <span>About</span>
                                     </a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a className="scroll-to" href="#resume">
                                         <i className="las la-briefcase"></i> <span>Resume</span>
                                     </a>
-                                </li>
+                                </li> */}
                                 <li>
                                     <a className="scroll-to" href="#services">
                                         <i className="las la-stream"></i> <span>Services</span>
@@ -214,11 +214,11 @@ export default function Home() {
                                         <i className="las la-grip-vertical"></i> <span>Portfolio</span>
                                     </a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a className="scroll-to" href="#testimonial">
                                         <i className="lar la-comment"></i> <span>Testimonial</span>
                                     </a>
-                                </li>
+                                </li> */}
                                 <li>
                                     <a className="scroll-to" href="#contact">
                                         <i className="las la-envelope"></i> <span>Contact</span>
@@ -256,11 +256,11 @@ export default function Home() {
                             <span>About</span> <i className="lar la-user"></i>
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a className="scroll-to" href="#resume">
                             <span>Resume</span> <i className="las la-briefcase"></i>
                         </a>
-                    </li>
+                    </li> */}
                     <li>
                         <a className="scroll-to" href="#services">
                             <span>Services</span> <i className="las la-stream"></i>
@@ -319,7 +319,7 @@ export default function Home() {
                                                                         </h4>
                                                                         <h1 className="scroll-animation"
                                                                             data-animation="fade_from_bottom">Say Hi from
-                                                                            <span>{userInfo?.name}</span>, Full Stack Wizard of the Web
+                                                                            <span> {userInfo?.name}</span>, Full Stack Wizard of the Web
 
                                                                         </h1>
                                                                     </div>
