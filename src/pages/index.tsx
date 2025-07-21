@@ -47,6 +47,7 @@ export default function Home() {
         {
             "name": "Ecommerce",
             "class": "col-md-12",
+            "link":"https://readyecommerce.henceforthsolutions.com/",
             "image": [
                 ecommercehome.src, ecommercesignin.src, ecommerceoffers.src, ecommercelayout1.src, ecommercelayout2.src, ecommercedetails.src, ecommercedetailslist.src
             ],
@@ -54,6 +55,7 @@ export default function Home() {
         },
         {
             "name": "Abundish Store",
+            "link":"https://staging.abundish.com/",
             "class": "col-md-12",
             "image": [
                 abundish1.src, abundish2.src, abundish3.src, abundish4.src
@@ -62,6 +64,7 @@ export default function Home() {
         },
         {
             "name": "Interview Easy",
+            "link":"https://interview-easy.vercel.app/",
             "class": "col-md-12",
             "image": [
                 interview1.src, interview2.src, interview3.src, interview4.src
@@ -70,6 +73,7 @@ export default function Home() {
         },
         {
             "name": "Kunfirm Loanhub",
+            "link":"https://kunfirm.me/",
             "class": "col-md-12",
             "image": [
                 kunfirm1.src, kunfirm2.src, kunfirm3.src, kunfirm4.src

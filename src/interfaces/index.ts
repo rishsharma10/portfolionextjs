@@ -37,6 +37,7 @@ interface Portfolio {
     class: string;
     image: string[];
     tech_used: string[];
+    link: string;
 }
 
 interface Skill {

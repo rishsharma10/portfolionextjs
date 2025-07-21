@@ -56,7 +56,7 @@ const PortfolioCard = (props: DataStructure["portfolio"]) => {
         <div className="d-flex justify-content-between align-items-start px-3 pb-3" style={{ minHeight: '80px', gap: '32px' }}>
           <div className="d-flex align-items-center">
           <h2 className="text-white mb-0 mt-0">
-            <a href={`https://${props?.name}.com`} target="_blank" className="text-white text-decoration-none">{props?.name}</a>
+            <a href={props?.link} rel="noreferrer" target="_blank" className="text-white text-decoration-none">{props?.name}</a>
           </h2>
           </div>
           <div className="col-md-12 d-flex justify-content-end">
