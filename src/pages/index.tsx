@@ -14,6 +14,22 @@ import ecommerceoffers from "src/imageassests/ecommerce/offers.jpeg"
 import ecommercelayout1 from "src/imageassests/ecommerce/layout1.jpeg"
 import ecommercelayout2 from "src/imageassests/ecommerce/layout2.jpeg"
 import ecommercedetails from "src/imageassests/ecommerce/details.jpeg"
+
+import abundish1 from "src/imageassests/abundish/img1.png"
+import abundish2 from "src/imageassests/abundish/img2.png"
+import abundish3 from "src/imageassests/abundish/img3.png"
+import abundish4 from "src/imageassests/abundish/img4.png"
+
+import interview1 from "src/imageassests/intervieweasy/img1.png"
+import interview2 from "src/imageassests/intervieweasy/img2.png"
+import interview3 from "src/imageassests/intervieweasy/img3.png"
+import interview4 from "src/imageassests/intervieweasy/img4.png"
+
+import kunfirm1 from "src/imageassests/kunfirm/img1.png"
+import kunfirm2 from "src/imageassests/kunfirm/img2.png"
+import kunfirm3 from "src/imageassests/kunfirm/img3.png"
+import kunfirm4 from "src/imageassests/kunfirm/img4.png"
+
 import ecommercedetailslist from "src/imageassests/ecommerce/detailslist.jpeg"
 import image from "src/imageassests/profile/userimg.png"
 import SkillsCard from 'src/components/SkillsCard'
@@ -23,104 +39,72 @@ import { PHONE_NUMBER_LINK } from 'src/context/Provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-    const [userInfo, setUserInfo]= useState(userData.user_details)
-    const [about, setAbout]= useState(userData.about)
-    const [eduExp, setEduExp]= useState(userData.edu_exp)
-    const [services, setServices]= useState(userData.services)
+    const [userInfo, setUserInfo] = useState(userData.user_details)
+    const [about, setAbout] = useState(userData.about)
+    const [eduExp, setEduExp] = useState(userData.edu_exp)
+    const [services, setServices] = useState(userData.services)
     const portfolio = [
         {
-            "name":"Ecommerce",
-            "class":"col-md-12",
-            "image":[
-                ecommercehome.src,ecommercesignin.src,ecommerceoffers.src,ecommercelayout1.src,ecommercelayout2.src,ecommercedetails.src,ecommercedetailslist.src
+            "name": "Ecommerce",
+            "class": "col-md-12",
+            "image": [
+                ecommercehome.src, ecommercesignin.src, ecommerceoffers.src, ecommercelayout1.src, ecommercelayout2.src, ecommercedetails.src, ecommercedetailslist.src
             ],
-            "tech_used":["Next.js","Bootstrap","Node.js","MongoDB"]
-        },
-        // {
-        //     "name":"abundish",
-        //     "class":"col-md-12",
-        //     "image":[
-        //         "xyz","aabc","hjj"
-        //     ],
-        //     "tech_used":["nextjs","reactjs","html"]
-        // },
-        // {
-        //     "name":"abundish",
-        //     "class":"col-md-12",
-        //     "image":[
-        //         "xyz","aabc","hjj"
-        //     ],
-        //     "tech_used":["nextjs","reactjs","html"]
-        // }
-    ]
-    const skillsArr = [
-        {
-            "name":"React.js",
-            "percent":80,
-            "icon":"xyz"
+            "tech_used": ["Next.js", "Bootstrap", "Node.js", "MongoDB"]
         },
         {
-            "name":"Next.js",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Abundish Store",
+            "class": "col-md-12",
+            "image": [
+                abundish1.src, abundish2.src, abundish3.src, abundish4.src
+            ],
+            "tech_used": ["Next.js", "Antd", "Nodejs", "Expressjs", "MongoDB"]
         },
         {
-            "name":"Typescript",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Interview Easy",
+            "class": "col-md-12",
+            "image": [
+                interview1.src, interview2.src, interview3.src, interview4.src
+            ],
+            "tech_used": ["Next.js", "Talwind", "Supabase", "Clerk", "Bootstrap"]
         },
         {
-            "name":"Javascript",
-            "percent":80,
-            "icon":"xyz"
-        },
-        {
-            "name":"Node js",
-            "percent":80,
-            "icon":"xyz"
-        },
-        {
-            "name":"Express.js",
-            "percent":80,
-            "icon":"xyz"
-        },
-        {
-            "name":"Mongo DB",
-            "percent":80,
-            "icon":"xyz"
-        },
-        {
-            "name":"Html",
-            "percent":80,
-            "icon":"xyz"
-        },
-        {
-            "name":"Css",
-            "percent":80,
-            "icon":"xyz"
-        },
-        {
-            "name":"Ant Design",
-            "percent":80,
-            "icon":"xyz"
-        },
-        {
-            "name":"Talwind Css",
-            "percent":80,
-            "icon":"xyz"
-        },
-        {
-            "name":"Web 3",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Kunfirm Loanhub",
+            "class": "col-md-12",
+            "image": [
+                kunfirm1.src, kunfirm2.src, kunfirm3.src, kunfirm4.src
+            ],
+            "tech_used": ["Next.js", "Antd", "Nodejs", "Expressjs", "MongoDB"]
         }
     ]
-    const [skills, setSkills]= useState(skillsArr)
+    const skillsArr = [
+        { name: "React.js", icon: "React", percent: 97 },
+        { name: "Next.js", icon: "Box", percent: 99 },
+        { name: "Typescript", icon: "FileType2", percent: 98 },
+        { name: "Javascript", icon: "FileCode2", percent: 100 },
+        { name: "Node js", icon: "NodeJs", percent: 96 },
+        { name: "Express.js", icon: "Server", percent: 95 },
+        { name: "Mongo DB", icon: "Database", percent: 97 },
+        { name: "Html", icon: "FileTypeHtml", percent: 98 },
+        { name: "Css", icon: "FileTypeCss", percent: 99 },
+        { name: "Ant Design", icon: "Antenna", percent: 96 },
+        { name: "Talwind Css", icon: "Wind", percent: 97 },
+        { name: "Blockchain", icon: "Blocks", percent: 95 },
+        { name: "Supabase", icon: "DatabaseZap", percent: 98 },
+        { name: "Clerk", icon: "UserCheck2", percent: 97 },
+        { name: "Firebase", icon: "Flame", percent: 99 },
+        { name: "Stripe", icon: "CreditCard", percent: 100 },
+        { name: "Paypal", icon: "Wallet", percent: 95 },
+        { name: "Nestjs", icon: "CircleDot", percent: 96 },
+        { name: "Shopify", icon: "ShoppingCart", percent: 98 },
+        { name: "Postgress", icon: "Database", percent: 97 },
+    ];
+    const [skills, setSkills] = useState(skillsArr)
     const [contactUs, setContactUs] = useState({
-        name:"",
-        email:"",
-        budget:0,
-        message:""
+        name: "",
+        email: "",
+        budget: 0,
+        message: ""
     })
     const contact_us_link = `https://api.whatsapp.com/send/?phone=${PHONE_NUMBER_LINK}&text=Hi i am ${contactUs?.name} my email is ${contactUs?.email} ${contactUs?.budget ? `my budget for this project is ${contactUs?.budget}` : ""} ,project details ${contactUs?.message} Contactus!&type=phone_number&app_absent=0`
     return (
@@ -288,13 +272,13 @@ export default function Home() {
                     </li>
                 </ul>
 
-                <UserCard {...userInfo}/>
+                <UserCard {...userInfo} />
 
                 <main className="drake-main">
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
 
-                        <UserCard {...userInfo}/>
+                            <UserCard {...userInfo} />
                             <div data-elementor-type="wp-page" data-elementor-id="8" className="elementor elementor-8">
                                 <section
                                     className="elementor-section elementor-top-section elementor-element elementor-element-4008bb0 elementor-section-full_width page-section scroll-to-page elementor-section-height-default elementor-section-height-default"
@@ -338,9 +322,8 @@ export default function Home() {
                                                                         <div className="left scroll-animation"
                                                                             data-animation="fade_from_left">
                                                                             <h1>{userInfo?.exp}+</h1>
-                                                                            <p>Years of <br />Experience</p>
+                                                                            <p>Years of<br />Experience</p>
                                                                         </div>
-
 
                                                                         <div className="right scroll-animation"
                                                                             data-animation="fade_from_right">
@@ -419,9 +402,9 @@ export default function Home() {
                                                                         </h1>
                                                                     </div>
 
-                                                                    <div className="resume-timeline">
-                                                                        {Array.isArray(eduExp) && eduExp.map((res,index) => <EducationExperience {...res} key={index}/>)}
-                                                                        
+                                                                    <div className="resume-timeline mt-5">
+                                                                        {Array.isArray(eduExp) && eduExp.map((res, index) => <EducationExperience {...res} key={index} />)}
+
                                                                     </div>
 
                                                                 </div>
@@ -460,8 +443,8 @@ export default function Home() {
                                                                         </h1>
                                                                     </div>
 
-                                                                    <div className="services-items">
-                                                                        {Array.isArray(services) && services.map((res,index) => <ServicesCard {...res} key={index}/>)}
+                                                                    <div className="services-items mt-5">
+                                                                        {Array.isArray(services) && services.map((res, index) => <ServicesCard {...res} key={index} />)}
                                                                     </div>
 
                                                                 </div>
@@ -496,13 +479,13 @@ export default function Home() {
                                                                         </h4>
                                                                         <h1 className="scroll-animation mb-2"
                                                                             data-animation="fade_from_bottom">Technical Expertise & Core Skills
-                                                                            
+
                                                                         </h1>
                                                                     </div>
-                                                                    <div className="row skills text-center">
-                                                                    {Array.isArray(skills) && skills.map((res,index) => <SkillsCard {...res} key={index}/>)}
-                                                                       
-                                                                        
+                                                                    <div className="row skills text-center mt-5">
+                                                                        {Array.isArray(skills) && skills.map((res, index) => <SkillsCard {...res} key={index} />)}
+
+
                                                                     </div>
 
                                                                 </div>
@@ -541,8 +524,8 @@ export default function Home() {
                                                                     </div>
 
                                                                     <div className="row portfolio-items">
-                                                                        {Array.isArray(portfolio) && portfolio.map((res,index) => <PortfolioCard {...res} key={index}/>)}
-                                                                        
+                                                                        {Array.isArray(portfolio) && portfolio.map((res, index) => <PortfolioCard {...res} key={index} />)}
+
                                                                     </div>
 
                                                                 </div>
@@ -900,7 +883,7 @@ export default function Home() {
                                                                                     <div className="input-group">
                                                                                         <p><label htmlFor="full-name">full Name
                                                                                             <sup>*</sup></label><input
-                                                                                            onChange={(e:any) => setContactUs({...contactUs,name:e.target.value})}
+                                                                                                onChange={(e: any) => setContactUs({ ...contactUs, name: e.target.value })}
                                                                                                 type="text" name="full-name"
                                                                                                 id="full-name"
                                                                                                 placeholder="Your Full Name" />
@@ -911,7 +894,7 @@ export default function Home() {
                                                                                     <div className="input-group">
                                                                                         <p><label htmlFor="email">Email
                                                                                             <sup>*</sup></label><input
-                                                                                            onChange={(e:any) => setContactUs({...contactUs,email:e.target.value})}
+                                                                                                onChange={(e: any) => setContactUs({ ...contactUs, email: e.target.value })}
                                                                                                 type="email" name="email" id="email"
                                                                                                 placeholder="Your email adress" />
                                                                                         </p>
@@ -948,7 +931,7 @@ export default function Home() {
                                                                                     <div className="input-group">
                                                                                         <p><label htmlFor="budget">your budget
                                                                                             <span>(optional)</span></label><input
-                                                                                            onChange={(e:any) => setContactUs({...contactUs,budget:e.target.value})}
+                                                                                                onChange={(e: any) => setContactUs({ ...contactUs, budget: e.target.value })}
                                                                                                 type="number" name="budget"
                                                                                                 id="budget"
                                                                                                 placeholder="A range budget for your project" />
@@ -959,7 +942,7 @@ export default function Home() {
                                                                                     <div className="input-group">
                                                                                         <p><label
                                                                                             htmlFor="message">message</label><textarea
-                                                                                            onChange={(e:any) => setContactUs({...contactUs,message:e.target.value})}
+                                                                                                onChange={(e: any) => setContactUs({ ...contactUs, message: e.target.value })}
                                                                                                 name="message" id="message"
                                                                                                 placeholder="Wrire your message here ..."></textarea>
                                                                                         </p>

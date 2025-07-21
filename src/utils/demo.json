@@ -1,146 +1,175 @@
-
 {
-
-    "user_details":{
-        "name":"Rishabh sharma",
-        "email":"rishabhsharmars147@gmail.com",
-        "image":"img",
-        "phone_no":"8770283188",
-        "address":"Sector 119, Balongi, Sahibzada Ajit Singh Nagar, Punjab 160055",
-        "role":"Full Stack developer",
-        "exp":"5yr",
-        "projects":"20"
+    "user_details": {
+        "name": "Rishabh sharma",
+        "email": "rishabhsharmars147@gmail.com",
+        "image": "img",
+        "phone_no": "8770283188",
+        "address": "Sector 119, Balongi, Sahibzada Ajit Singh Nagar, Punjab 160055",
+        "role": "Full Stack developer",
+        "exp": "5yr",
+        "projects": "20"
     },
-    "about":{
-        "title":"Experienced Full-Stack Developer 5+ Years in Web & App Development",
-        "description":"Skilled Full-Stack Developer with 5 years of experience in building dynamic and scalable web applications. Proficient in React.js, Next.js, Node.js, Express.js, and modern databases, I specialize in creating seamless user experiences and efficient backend solutions. Passionate about clean code, performance optimization, and staying updated with the latest technologies to deliver high-quality software solutions."
+    "about": {
+        "title": "Experienced Full-Stack Developer | 5+ Years in Web, App & Blockchain Development",
+        "description": "Versatile Full-Stack Developer with over 5 years of experience delivering dynamic, scalable, and secure web and mobile applications. Proficient in React.js, Next.js, Node.js, Express.js, and TypeScript, with deep expertise in databases like MongoDB, PostgreSQL, and Redis. Skilled in API design (REST & GraphQL), cloud deployments, and DevOps practices. Experienced in blockchain development with Solidity, smart contracts, and Web3.js. Passionate about clean code, scalable architecture, performance optimization, and constantly adapting to emerging technologies."
     },
-    "edu_exp":[
+    "edu_exp": [
         {
             "start_date": "1 Jan 2025",
-            "end_date":"Present",
-            "role":"Full Stack developer",
-            "company":"FreeLancing"
+            "end_date": "Present",
+            "role": "Full Stack developer | Blockchain | Solidity | Redis | PostgreSQL",
+            "company": "FreeLancing"
         },
         {
             "start_date": "21 March 2022",
-            "end_date":"1 Jan 2025",
-            "role":"Reactjs developer | Mern Stack",
-            "company":"HF solutions Pvt Ltd"
+            "end_date": "1 Jan 2025",
+            "role": "Reactjs developer | Mern Stack | Blockchain",
+            "company": "HF solutions Pvt Ltd"
         },
         {
             "start_date": "20 March 2021",
-            "end_date":"1 March 2022",
-            "role":"Reactjs developer Internship",
-            "company":"PN INFOSYS"
+            "end_date": "1 March 2022",
+            "role": "Reactjs developer Internship",
+            "company": "PN INFOSYS"
         }
     ],
-    "services":[
+    "services": [
         {
-            "title":"Frontend Development Specialist",
-            "desc":"Expertise in building intuitive and responsive user interfaces using React.js, Next.js, TypeScript, and Redux. Skilled in modern UI/UX principles, performance optimization, and integrating APIs for seamless user experiences.",
-            "project_count":10,
-            "icon":"xyz"
+            "title": "Frontend Development Specialist",
+            "desc": "Expertise in building intuitive and responsive user interfaces using React.js, Next.js, TypeScript, and Redux. Skilled in modern UI/UX principles, performance optimization, and integrating APIs for seamless user experiences.",
+            "project_count": 10,
+            "icon": "xyz"
         },
         {
-            "title":"Backend & API Development Expert",
-            "desc":"Proficient in Node.js, Express.js, and database management (MongoDB, PostgreSQL) to develop scalable and secure server-side applications. Experienced in RESTful and GraphQL APIs, authentication, and cloud integrations.",
-            "project_count":10,
-            "icon":"xyz"
+            "title": "Backend & API Development Expert",
+            "desc": "Proficient in Node.js, Express.js, and database management (MongoDB, PostgreSQL) to develop scalable and secure server-side applications. Experienced in RESTful and GraphQL APIs, authentication, and cloud integrations.",
+            "project_count": 10,
+            "icon": "xyz"
         },
         {
-            "title":"Full-Stack Application Architect",
-            "desc":"Strong ability to design and develop end-to-end solutions by combining frontend and backend expertise. Skilled in DevOps, CI/CD pipelines, microservices architecture, and cloud deployment, ensuring high-performance and scalable applications.",
-            "project_count":10,
-            "icon":"xyz"
+            "title": "Full-Stack Application Architect",
+            "desc": "Strong ability to design and develop end-to-end solutions by combining frontend and backend expertise. Skilled in DevOps, CI/CD pipelines, microservices architecture, and cloud deployment, ensuring high-performance and scalable applications.",
+            "project_count": 10,
+            "icon": "xyz"
+        },
+        {
+            "title": "Blockchain Development Specialist",
+            "desc": "Hands-on experience in building decentralized applications (dApps) using Ethereum, Solidity, and smart contracts. Proficient with Web3.js, wallet integrations, NFTs, and blockchain security practices.",
+            "project_count": 6,
+            "icon": "xyz"
+        },
+        {
+            "title": "PostgreSQL & Redis Integration Expert",
+            "desc": "Advanced knowledge of PostgreSQL for relational data modeling and Redis for high-speed caching and pub/sub systems. Skilled in optimizing query performance, designing scalable data layers, and implementing hybrid database architectures.",
+            "project_count": 8,
+            "icon": "xyz"
         }
     ],
-    "portfolio":[
+    "portfolio": [
         {
-            "name":"Ecommerce",
-            "class":"col-md-12",
-            "image":[
-                "xyz","aabc","hjj"
+            "name": "Ecommerce",
+            "class": "col-md-12",
+            "image": [
+                "xyz",
+                "aabc",
+                "hjj"
             ],
-            "tech_used":["Next.js","Bootstrap","Nodejs","MongoDB"]
+            "tech_used": [
+                "Next.js",
+                "Bootstrap",
+                "Nodejs",
+                "MongoDB"
+            ]
         },
         {
-            "name":"abundish",
-            "class":"col-md-12",
-            "image":[
-                "xyz","aabc","hjj"
+            "name": "abundish",
+            "class": "col-md-12",
+            "image": [
+                "xyz",
+                "aabc",
+                "hjj"
             ],
-            "tech_used":["nextjs","reactjs","html"]
+            "tech_used": [
+                "nextjs",
+                "reactjs",
+                "html"
+            ]
         },
         {
-            "name":"abundish",
-            "class":"col-md-12",
-            "image":[
-                "xyz","aabc","hjj"
+            "name": "abundish",
+            "class": "col-md-12",
+            "image": [
+                "xyz",
+                "aabc",
+                "hjj"
             ],
-            "tech_used":["nextjs","reactjs","html"]
+            "tech_used": [
+                "nextjs",
+                "reactjs",
+                "html"
+            ]
         }
     ],
-    "skills":[
+    "skills": [
         {
-            "name":"React.js",
-            "percent":80,
-            "icon":"xyz"
+            "name": "React.js",
+            "percent": 80,
+            "icon": "xyz"
         },
         {
-            "name":"Next.js",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Next.js",
+            "percent": 80,
+            "icon": "xyz"
         },
         {
-            "name":"Typescript",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Typescript",
+            "percent": 80,
+            "icon": "xyz"
         },
         {
-            "name":"Javascript",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Javascript",
+            "percent": 80,
+            "icon": "xyz"
         },
         {
-            "name":"Node js",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Node js",
+            "percent": 80,
+            "icon": "xyz"
         },
         {
-            "name":"Express.js",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Express.js",
+            "percent": 80,
+            "icon": "xyz"
         },
         {
-            "name":"Mongo DB",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Mongo DB",
+            "percent": 80,
+            "icon": "xyz"
         },
         {
-            "name":"Html",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Html",
+            "percent": 80,
+            "icon": "xyz"
         },
         {
-            "name":"Css",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Css",
+            "percent": 80,
+            "icon": "xyz"
         },
         {
-            "name":"Ant Design",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Ant Design",
+            "percent": 80,
+            "icon": "xyz"
         },
         {
-            "name":"Talwind Css",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Talwind Css",
+            "percent": 80,
+            "icon": "xyz"
         },
         {
-            "name":"Web 3",
-            "percent":80,
-            "icon":"xyz"
+            "name": "Web 3",
+            "percent": 80,
+            "icon": "xyz"
         }
     ]
 }
