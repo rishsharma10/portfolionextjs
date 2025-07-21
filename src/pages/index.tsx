@@ -8,29 +8,30 @@ import ServicesCard from 'src/components/ServicesCard'
 import PortfolioCard from 'src/components/PortfolioCard'
 import userData from 'src/utils/demo.json'
 import { useState } from 'react'
-import ecommercehome from "src/imageassests/ecommerce/banner.jpeg"
-import ecommercesignin from "src/imageassests/ecommerce/signin.jpeg"
-import ecommerceoffers from "src/imageassests/ecommerce/offers.jpeg"
-import ecommercelayout1 from "src/imageassests/ecommerce/layout1.jpeg"
-import ecommercelayout2 from "src/imageassests/ecommerce/layout2.jpeg"
-import ecommercedetails from "src/imageassests/ecommerce/details.jpeg"
 
-import abundish1 from "src/imageassests/abundish/img1.png"
-import abundish2 from "src/imageassests/abundish/img2.png"
-import abundish3 from "src/imageassests/abundish/img3.png"
-import abundish4 from "src/imageassests/abundish/img4.png"
+import ecommercehome from "../../public/assets/ecommerce/banner.jpeg"
+import ecommercesignin from "../../public/assets/ecommerce/signin.jpeg"
+import ecommerceoffers from "../../public/assets/ecommerce/offers.jpeg"
+import ecommercelayout1 from "../../public/assets/ecommerce/layout1.jpeg"
+import ecommercelayout2 from "../../public/assets/ecommerce/layout2.jpeg"
+import ecommercedetails from "../../public/assets/ecommerce/details.jpeg"
 
-import interview1 from "src/imageassests/intervieweasy/img1.png"
-import interview2 from "src/imageassests/intervieweasy/img2.png"
-import interview3 from "src/imageassests/intervieweasy/img3.png"
-import interview4 from "src/imageassests/intervieweasy/img4.png"
+import abundish1 from "../../public/assets/abundish/img1.png"
+import abundish2 from "../../public/assets/abundish/img2.png"
+import abundish3 from "../../public/assets/abundish/img3.png"
+import abundish4 from "../../public/assets/abundish/img4.png"
 
-import kunfirm1 from "src/imageassests/kunfirm/img1.png"
-import kunfirm2 from "src/imageassests/kunfirm/img2.png"
-import kunfirm3 from "src/imageassests/kunfirm/img3.png"
-import kunfirm4 from "src/imageassests/kunfirm/img4.png"
+import interview1 from "../../public/assets/intervieweasy/img1.png"
+import interview2 from "../../public/assets/intervieweasy/img2.png"
+import interview3 from "../../public/assets/intervieweasy/img3.png"
+import interview4 from "../../public/assets/intervieweasy/img4.png"
 
-import ecommercedetailslist from "src/imageassests/ecommerce/detailslist.jpeg"
+import kunfirm1 from "../../public/assets/kunfirm/img1.png"
+import kunfirm2 from "../../public/assets/kunfirm/img2.png"
+import kunfirm3 from "../../public/assets/kunfirm/img3.png"
+import kunfirm4 from "../../public/assets/kunfirm/img4.png"
+
+import ecommercedetailslist from "../../public/assets/ecommerce/detailslist.jpeg"
 import image from "src/imageassests/profile/userimg.png"
 import SkillsCard from 'src/components/SkillsCard'
 import Link from 'next/link'

@@ -8,12 +8,12 @@ const PortfolioCard = (props: DataStructure["portfolio"]) => {
   const redirect = `https://api.whatsapp.com/send/?phone=${PHONE_NUMBER_LINK}&text=Hi, contact us regarding ${props.name} portfolio!&type=phone_number&app_absent=0`;
 
   return (
-    <div className="col-md-12 scroll-animation mb-4" data-animation="fade_from_bottom">
+    <div className="col-md-12 scroll-animation mb-2" data-animation="fade_from_bottom">
       <div className="portfolio-item rounded overflow-hidden" style={{ border: 'none' }}>
         <div className="portfolio-item-inner">
 
           {/* Image Carousel */}
-          <Carousel arrows={true} dots={true} autoplay={true}>
+          <Carousel arrows={true} dots={true} autoplay={true} autoplaySpeed={3000}>
             {Array.isArray(props.image) &&
               props.image.map((img: string, index: number) => (
                 <div key={index} className="position-relative" style={{ height: "500px", width: "400px" }}>
@@ -42,10 +42,10 @@ const PortfolioCard = (props: DataStructure["portfolio"]) => {
 
           {/* Tech used tags */}
           {Array.isArray(props.tech_used) && props.tech_used.length > 0 && (
-            <ul className="portfolio-categories list-inline mt-3 mb-2 ps-3">
+            <ul className="portfolio-categories list-inline mt-3 mb-2 p-3">
               {props.tech_used.map((tech, index) => (
-                <li key={index} className="list-inline-item me-2">
-                  <span className="badge bg-secondary">{tech}</span>
+                <li key={index} className="list-inline-item me-2 ps-2 pe-2">
+                  <span className="badge bg-dark">{tech}</span>
                 </li>
               ))}
             </ul>
