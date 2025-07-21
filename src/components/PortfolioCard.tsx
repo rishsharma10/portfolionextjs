@@ -1,4 +1,5 @@
 import { Button, Carousel } from "antd";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { PHONE_NUMBER_LINK } from "src/context/Provider";
@@ -22,7 +23,7 @@ const PortfolioCard = (props: DataStructure["portfolio"]) => {
                     data-lightbox="example-1"
                     className="d-block w-100 h-100"
                   >
-                    <img
+                    <Image
                       decoding="async"
                       src={img}
                       alt={`Portfolio ${props.name} - ${index}`}

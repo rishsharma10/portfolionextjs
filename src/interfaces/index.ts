@@ -35,9 +35,10 @@ interface Service {
 interface Portfolio {
     name: string;
     class: string;
-    image: string[];
+    image: any;
     tech_used: string[];
     link: string;
+
 }
 
 interface Skill {

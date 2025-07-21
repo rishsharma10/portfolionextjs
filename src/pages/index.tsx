@@ -50,7 +50,7 @@ export default function Home() {
             "class": "col-md-12",
             "link":"https://readyecommerce.henceforthsolutions.com/",
             "image": [
-                ecommercehome.src, ecommercesignin.src, ecommerceoffers.src, ecommercelayout1.src, ecommercelayout2.src, ecommercedetails.src, ecommercedetailslist.src
+                ecommercehome, ecommercesignin, ecommerceoffers, ecommercelayout1, ecommercelayout2, ecommercedetails, ecommercedetailslist
             ],
             "tech_used": ["Next.js", "Bootstrap", "Node.js", "MongoDB"]
         },
@@ -59,7 +59,7 @@ export default function Home() {
             "link":"https://staging.abundish.com/",
             "class": "col-md-12",
             "image": [
-                abundish1.src, abundish2.src, abundish3.src, abundish4.src
+                abundish1, abundish2, abundish3, abundish4
             ],
             "tech_used": ["Next.js", "Antd", "Nodejs", "Expressjs", "MongoDB"]
         },
@@ -68,7 +68,7 @@ export default function Home() {
             "link":"https://interview-easy.vercel.app/",
             "class": "col-md-12",
             "image": [
-                interview1.src, interview2.src, interview3.src, interview4.src
+                interview1, interview2, interview3, interview4
             ],
             "tech_used": ["Next.js", "Talwind", "Supabase", "Clerk", "Bootstrap"]
         },
@@ -77,7 +77,7 @@ export default function Home() {
             "link":"https://kunfirm.me/",
             "class": "col-md-12",
             "image": [
-                kunfirm1.src, kunfirm2.src, kunfirm3.src, kunfirm4.src
+                kunfirm1, kunfirm2, kunfirm3, kunfirm4
             ],
             "tech_used": ["Next.js", "Antd", "Nodejs", "Expressjs", "MongoDB"]
         }
