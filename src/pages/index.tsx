@@ -9,29 +9,6 @@ import PortfolioCard from 'src/components/PortfolioCard'
 import userData from 'src/utils/demo.json'
 import { useState } from 'react'
 
-import ecommercehome from "../../public/assets/ecommerce/banner.jpeg"
-import ecommercesignin from "../../public/assets/ecommerce/signin.jpeg"
-import ecommerceoffers from "../../public/assets/ecommerce/offers.jpeg"
-import ecommercelayout1 from "../../public/assets/ecommerce/layout1.jpeg"
-import ecommercelayout2 from "../../public/assets/ecommerce/layout2.jpeg"
-import ecommercedetails from "../../public/assets/ecommerce/details.jpeg"
-
-import abundish1 from "../../public/assets/abundish/img1.png"
-import abundish2 from "../../public/assets/abundish/img2.png"
-import abundish3 from "../../public/assets/abundish/img3.png"
-import abundish4 from "../../public/assets/abundish/img4.png"
-
-import interview1 from "../../public/assets/intervieweasy/img1.png"
-import interview2 from "../../public/assets/intervieweasy/img2.png"
-import interview3 from "../../public/assets/intervieweasy/img3.png"
-import interview4 from "../../public/assets/intervieweasy/img4.png"
-
-import kunfirm1 from "../../public/assets/kunfirm/img1.png"
-import kunfirm2 from "../../public/assets/kunfirm/img2.png"
-import kunfirm3 from "../../public/assets/kunfirm/img3.png"
-import kunfirm4 from "../../public/assets/kunfirm/img4.png"
-
-import ecommercedetailslist from "../../public/assets/ecommerce/detailslist.jpeg"
 import image from "src/imageassests/profile/userimg.png"
 import SkillsCard from 'src/components/SkillsCard'
 import Link from 'next/link'
@@ -50,7 +27,13 @@ export default function Home() {
             "class": "col-md-12",
             "link":"https://readyecommerce.henceforthsolutions.com/",
             "image": [
-                ecommercehome, ecommercesignin, ecommerceoffers, ecommercelayout1, ecommercelayout2, ecommercedetails, ecommercedetailslist
+                "/assets/ecommerce/banner.jpeg",
+                "/assets/ecommerce/signin.jpeg",
+                "/assets/ecommerce/offers.jpeg",
+                "/assets/ecommerce/layout1.jpeg",
+                "/assets/ecommerce/layout2.jpeg",
+                "/assets/ecommerce/details.jpeg",
+                "/assets/ecommerce/detailslist.jpeg"
             ],
             "tech_used": ["Next.js", "Bootstrap", "Node.js", "MongoDB"]
         },
@@ -59,7 +42,10 @@ export default function Home() {
             "link":"https://staging.abundish.com/",
             "class": "col-md-12",
             "image": [
-                abundish1, abundish2, abundish3, abundish4
+                "/assets/abundish/img1.png",
+                "/assets/abundish/img2.png",
+                "/assets/abundish/img3.png",
+                "/assets/abundish/img4.png"
             ],
             "tech_used": ["Next.js", "Antd", "Nodejs", "Expressjs", "MongoDB"]
         },
@@ -68,7 +54,10 @@ export default function Home() {
             "link":"https://interview-easy.vercel.app/",
             "class": "col-md-12",
             "image": [
-                interview1, interview2, interview3, interview4
+                "/assets/intervieweasy/img1.png",
+                "/assets/intervieweasy/img2.png",
+                "/assets/intervieweasy/img3.png",
+                "/assets/intervieweasy/img4.png"
             ],
             "tech_used": ["Next.js", "Talwind", "Supabase", "Clerk", "Bootstrap"]
         },
@@ -77,7 +66,10 @@ export default function Home() {
             "link":"https://kunfirm.me/",
             "class": "col-md-12",
             "image": [
-                kunfirm1, kunfirm2, kunfirm3, kunfirm4
+                "/assets/kunfirm/img1.png",
+                "/assets/kunfirm/img2.png",
+                "/assets/kunfirm/img3.png",
+                "/assets/kunfirm/img4.png"
             ],
             "tech_used": ["Next.js", "Antd", "Nodejs", "Expressjs", "MongoDB"]
         }

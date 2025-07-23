@@ -27,13 +27,13 @@ const PortfolioCard = (props: DataStructure["portfolio"]) => {
                       decoding="async"
                       src={img}
                       alt={`Portfolio ${props.name} - ${index}`}
-                      width={400}
+                      width={800}
                       height={500}
+                      quality={100}
+                      unoptimized
                       style={{
                         objectFit: "cover",
-                        display: "block",
-                        width: "800px",
-                        height: "500px",
+                        display: "block"
                       }}
                     />
                   </a>
